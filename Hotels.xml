@@ -1,71 +1,53 @@
-<?xml version="1.0" encoding="utf‑8"?>
-<Hotels>
-  <!-- Example given in assignment -->
-  <Hotel Rating="4.2">
-    <Name>Westin</Name>
-    <Phone>480‑968‑8885</Phone>
-    <Phone>800‑937‑8461</Phone>
-    <Address Number="11" Street="E 7th St" City="Tempe" State="AZ" Zip="85281" NearestAirport="Sky Harbor"/>
-  </Hotel>
 
-  <Hotel Rating="4.8">
-    <Name>Hotel Valley Ho</Name>
-    <Phone>480‑376‑2600</Phone>
-    <Address Number="6850" Street="E Main St" City="Scottsdale" State="AZ" Zip="85251"/>
-  </Hotel>
-
-  <Hotel Rating="4.5">
-    <Name>The Phoenician</Name>
-    <Phone>480‑941‑8200</Phone>
-    <Address Number="6000" Street="E Camelback Rd" City="Scottsdale" State="AZ" Zip="85251" NearestAirport="Sky Harbor"/>
-  </Hotel>
-
-  <Hotel>
-    <Name>Graduate Tempe</Name>
-    <Phone>480‑967‑9431</Phone>
-    <Address Number="225" Street="E Apache Blvd" City="Tempe" State="AZ" Zip="85281"/>
-  </Hotel>
-
-  <Hotel Rating="4.0">
-    <Name>Hyatt Place Phoenix / Mesa</Name>
-    <Phone>480‑969‑8200</Phone>
-    <Address Number="1422" Street="W Bass Pro Dr" City="Mesa" State="AZ" Zip="85201"/>
-  </Hotel>
-
-  <Hotel Rating="4.3">
-    <Name>JW Marriott Camelback Inn</Name>
-    <Phone>480‑948‑1700</Phone>
-    <Address Number="5402" Street="E Lincoln Dr" City="Paradise Valley" State="AZ" Zip="85253" NearestAirport="Sky Harbor"/>
-  </Hotel>
-
-  <Hotel>
-    <Name>Courtyard by Marriott Tempe</Name>
-    <Phone>480‑966‑2800</Phone>
-    <Phone>888‑236‑2427</Phone>
-    <Address Number="601" Street="S Ash Ave" City="Tempe" State="AZ" Zip="85281"/>
-  </Hotel>
-
-  <Hotel Rating="3.9">
-    <Name>Aloft Tempe</Name>
-    <Phone>480‑968‑3451</Phone>
-    <Address Number="951" Street="E Playa Del Norte Dr" City="Tempe" State="AZ" Zip="85281"/>
-  </Hotel>
-
-  <Hotel Rating="4.6">
-    <Name>Fairmont Scottsdale Princess</Name>
-    <Phone>480‑585‑4848</Phone>
-    <Address Number="7575" Street="E Princess Dr" City="Scottsdale" State="AZ" Zip="85255" NearestAirport="Scottsdale"/>
-  </Hotel>
-
-  <Hotel>
-    <Name>Arizona Biltmore</Name>
-    <Phone>602‑955‑6600</Phone>
-    <Address Number="2400" Street="E Missouri Ave" City="Phoenix" State="AZ" Zip="85016"/>
-  </Hotel>
-
-  <Hotel Rating="4.1">
-    <Name>Embassy Suites by Hilton Tempe</Name>
-    <Phone>480‑897‑7444</Phone>
-    <Address Number="4400" Street="S Rural Rd" City="Tempe" State="AZ" Zip="85282" NearestAirport="Sky Harbor"/>
-  </Hotel>
-</Hotels>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Courses.xsl"?>
+<Courses
+   xmlns ="http://venus.sod.asu.edu/WSRepository/xml"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://venus.sod.asu.edu/WSRepository/xml Courses.xsd">
+   <Course>
+      <Code Undergrad="CSE240"></Code>
+      <Name>Introduction to Programming Languages</Name>
+      <Instructor>
+         <Name>
+            <First>Calvin</First>
+            <Last>Cheng</Last>
+         </Name>  
+         <Contact>
+            <Phone>480-965 1111</Phone>
+         </Contact>
+      </Instructor>
+      <Room>BYAC110</Room>
+      <cap>82</cap>
+   </Course>     
+   <Course>
+      <Code Undergrad="CSE445" Graduate="CSE598"></Code>
+      <Name>Distributed Software Development</Name>
+      <Instructor>
+         <Name>
+            <First>Yinong</First>
+            <Last>Chen</Last>
+         </Name>  
+         <Contact Office="BYENG414">
+            <Phone>480-965 2769</Phone>
+         </Contact>
+      </Instructor>
+      <Room>BYAC210</Room>
+      <cap>57</cap>
+   </Course>     
+   <Course>
+      <Code Undergrad="CSE360"></Code>
+      <Name>Software Engineering</Name>
+      <Instructor>
+         <Name>
+            <First>James</First>
+            <Last>Collofello</Last>
+         </Name>  
+         <Contact>
+            <Phone>480-965 0000</Phone>
+         </Contact>
+      </Instructor>
+      <Room>BYAC270</Room>
+      <cap>65</cap>
+   </Course>     
+</Courses>  
