@@ -22,7 +22,7 @@
   </Hotel>
 
   <!-- (4) Address element left open (no closing tag) -->
-  <Hotel>
+  <Hotel Rating="4.0">
     <Name>Graduate Tempe</Name>
     <Phone>480‑967‑9431</Phone>
     <Address Number="225" Street="E Apache Blvd" City="Tempe" State="AZ" Zip="85281"
