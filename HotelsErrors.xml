@@ -25,7 +25,7 @@
   <Hotel Rating="4.0">
     <Name>Graduate Tempe</Name>
     <Phone>480‑967‑9431</Phone>
-    <Address Number="225" Street="E Apache Blvd" City="Tempe" State="AZ" Zip="85281"
+    <Address Number="225" Street="E Apache Blvd" City="Tempe" State="AZ" Zip="85281"/>
   </Hotel>
 
   <!-- (5) Two Name elements in one Hotel -->
