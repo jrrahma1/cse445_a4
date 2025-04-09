@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf‑8"?>
+<!-- (1) Wrong root element name -->
+<Hotel>
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480‑968‑8885</Phone>
+    <Phone>800‑937‑8461</Phone>
+    <Address Number="11" Street="E 7th St" City="Tempe" State="AZ" Zip="85281" NearestAirport="Sky Harbor"/>
+  </Hotel>
+
+  <!-- (2) Required attribute (Number) is missing on Address -->
+  <Hotel Rating="4.8">
+    <Name>Hotel Valley Ho</Name>
+    <Phone>480‑376‑2600</Phone>
+    <Address Street="E Main St" City="Scottsdale" State="AZ" Zip="85251"/>
+  </Hotel>
+
+  <!-- (3) Missing a Phone element entirely -->
+  <Hotel Rating="4.5">
+    <Name>The Phoenician</Name>
+    <Address Number="6000" Street="E Camelback Rd" City="Scottsdale" State="AZ" Zip="85251" NearestAirport="Sky Harbor"/>
+  </Hotel>
+
+  <!-- (4) Address element left open (no closing tag) -->
+  <Hotel>
+    <Name>Graduate Tempe</Name>
+    <Phone>480‑967‑9431</Phone>
+    <Address Number="225" Street="E Apache Blvd" City="Tempe" State="AZ" Zip="85281"
+  </Hotel>
+
+  <!-- (5) Two Name elements in one Hotel -->
+  <Hotel Rating="4.0">
+    <Name>Hyatt Place Phoenix / Mesa</Name>
+    <Name>Duplicated Name</Name>
+    <Phone>480‑969‑8200</Phone>
+    <Address Number="1422" Street="W Bass Pro Dr" City="Mesa" State="AZ" Zip="85201"/>
+  </Hotel>
+</Hotel>
