@@ -13,9 +13,9 @@ namespace ConsoleApp1
     public class Program
     {
         // *** Update these three URLs after you deploy the XML/XSD files to GitHub Pages (or other public host) ***
-        public static string xmlURL       = "https://YOUR_HOST/Hotels.xml";          // Q1.2
-        public static string xmlErrorURL  = "https://YOUR_HOST/HotelsErrors.xml";    // Q1.3
-        public static string xsdURL       = "https://YOUR_HOST/Hotels.xsd";          // Q1.1
+        public static string xmlURL       = "https://jrrahma1.github.io/cse445_a4/Hotels.xml";          // Q1.2
+        public static string xmlErrorURL  = "https://jrrahma1.github.io/cse445_a4/HotelsErrors.xml";    // Q1.3
+        public static string xsdURL       = "https://jrrahma1.github.io/cse445_a4/Hotels.xsd";          // Q1.1
 
         // Buffer for collecting validation errors
         private static readonly List<string> _validationErrors = new List<string>();
